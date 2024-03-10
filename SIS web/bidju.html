@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/boom.css"/>
+		<title>Хвостатые</title>
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+    </head>
+    <body>
+	    <header id = "header" class = "header" >
+	    	<div class = "container"> 
+	    		<div class="nav">
+	    			<img class = "logo" src="img/logo.svg" >
+	    			<ul class = "menu">
+	    				<li>
+	    					<a href = "SIS.html" >
+	    						Главная
+	    					</a>
+	    				</li>
+	    				<li >
+	    					<a href = "Hokage.html" >
+	    						Как стать Хокаге
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href = "bidju.html" >
+	    						Хвостатые
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href = "about.html" >
+	    						О нас
+	    					</a>
+	    				</li>
+	    			</ul>
+	    		</div>
+	    			<h1> Данная страница еще не придумана.</h1>
+	    	</div>
+	    </header>
+	    <article  id = "article" class = "article">
+	    	<div class = "container">
+	    			<img class="error" src="img/banner-1033932_1280.jpg">
+	    	</div>
+
+	    </article>
+	    <footer id = "footer" class = "footer">
+	    	<div class = "container">
+	    		Реклама:
+	    		<a href="tel:+77479614672" class="tel"> +7749614672 </a>
+	    	</div>
+	    </footer>
+    </body>
+      <script>
+    	document.oncontextmenu = function () {
+    		return false;
+    	}
+    	var block = document.getElementById('article');
+    	block.onclick = function () {
+    		this.style.background = 'pink';
+    	}
+    	block.ondblclick = function () {
+    		this.style.background = null;
+    	}
+    </script>
+</html>

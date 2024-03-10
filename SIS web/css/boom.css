@@ -1,0 +1,188 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Consolas;
+	font-size: 16px;
+	background: url('../img/747955.png') no-repeat center top / cover;
+	background-attachment: fixed;
+}
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+ul, li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.logo{
+	width: 100px;
+	height: 70px;
+	margin-right: 69px;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header a{
+	color:#916f09;
+}
+
+.menu{
+	display: flex;
+}
+
+.menu li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.menu li {
+	margin-right: 60px;	
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+	position: fixed;
+	border-bottom: 2px solid #916f09; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 3px; /* Расстояние от текста до линии */
+    
+}
+
+#header h1{
+	padding-top: 600px;
+	text-align: center;
+	color: #d96c0d;
+}
+
+ /* Стили для страницы Хокаге*/
+.secretH h1{
+	padding-top: 600px;
+}
+
+.secretT h2{
+	padding-top: 70px;
+	color: orange;
+}
+.secretT h5{
+	color: red;
+}
+
+
+/* Стили для футера*/
+footer{
+	width: 98%;
+	padding: 1%;
+	background: transparent;
+	border-top: 2px solid #916f09;
+}
+footer .container{
+	font-size: 25px;
+	float: right;
+	text-align: right;
+	color: red;
+}
+.tel{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: red;
+}
+article{
+	margin-right: 70px;
+	margin-left: 70px;
+	background: url(https://images.wallpaperscraft.ru/image/https://images.wallpaperscraft.ru/image/https://images.wallpaperscraft.ru/image/rozovyj_tsvet_fon_154559_1600x1200.jpg) repeat center;
+}
+
+
+
+.welcome {
+	display: flex;
+	color: orange;
+	border-bottom: 2px solid #916f09;
+}
+
+.welimg{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	animation: myanim 15s linear infinite;
+}
+
+@keyframes myanim {
+    from { transform: rotate(180deg) translateX(0px) rotate(180deg); }
+    to   { transform: rotate(540deg) translateX(0px) rotate(540deg); }
+}
+
+.soder a{
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 30px;
+	height: 25px;
+	color: orange;
+}
+.soder{
+	border: 2px dotted red;
+	width: 30%;
+}
+
+.konohaimg{
+	width: 400px;
+	height: 300px;
+}
+#konohaimg{
+	display: flex;
+}
+.goKonoha h5{
+	font-family: Arial;
+	font-size: 15px;
+	color: #0f4499;
+}
+.goKonoha h2{
+	color: orange;
+}
+
+.podhistory{
+	margin-left: 30px;
+}
+
+.error{
+	width: 700px;
+	height: 300px;
+	margin-left: 23%;
+}
+.people{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: red;
+}
+
+.history{
+	display: flex;
+}
+.bidju{
+	display: flex;	
+}
+.uchiha{
+	display: flex;
+}
+.konohadead{
+	display: flex;
+}
+.pain{
+	display: flex;
+}
+.fourwar{
+	display: flex;
+}
+.bwar{
+	display: flex;
+}
